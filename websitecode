@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Home Section</h2>
+    <p>This is the homepage of your website.</p>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>This is where you can talk about yourself or your business.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <p>Details about your services go here.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Contact form or contact details go here.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 My Website</p>
+</footer>
+
+</body>
+</html>
